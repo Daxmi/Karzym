@@ -1,0 +1,71 @@
+main{
+    margin: 20px;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    
+}
+aside.navTop{
+    display: flex;
+}
+aside.navTop a{
+    text-decoration: none;
+    color: black;
+    padding-right: 20px;
+}
+span{
+    padding-right: 20px;
+}
+section h1{
+    text-align: center;
+    margin: 30px;
+    font-size: 30px;
+}
+section p{
+    font-size: 20px;
+    margin: 10px 0;
+}
+form input{
+    margin: 5px 0 15px 0;
+    height: 40px;
+}
+.firstName{
+    width: 49%;
+    box-sizing: border-box;
+}
+.secondName{
+    width: 49%;
+    box-sizing: border-box;
+}
+.email{
+    width: 100%;
+    box-sizing: border-box;
+}
+.events{
+    width: 100%;
+    box-sizing: border-box;
+    height: 40px;
+    margin-bottom: 15px;
+}
+.specify{
+    width: 100%;
+    box-sizing: border-box;
+}
+#specify{
+    display: none;
+}
+.comment{
+    width: 100%;
+    box-sizing: border-box;
+    /* height: 100px; */
+}
+@media screen and (min-width: 768px) {
+    main{
+        margin: 20px 100px;
+    }    
+}
+@media screen and (min-width: 998px) {
+    main{
+        margin: 20px 400px;
+    }    
+}
+

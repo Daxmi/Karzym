@@ -1,0 +1,550 @@
+*{
+    margin: 0;
+    /* background-color: black; */
+}
+
+html {
+    width:100%;
+}
+
+/* CSS for header */
+header.nav-top{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    width: 100%;
+    padding: 5px 0;
+    z-index: 100;
+}
+img.logo{
+    width: 50px;
+}
+a.menu{
+    font-size: 20px;
+}
+div.nav-top-menu{
+    display: flex;
+    /* display: none; */
+    margin: 0 0 0 auto;
+    padding-right: 10px;
+    align-items: center;
+}
+
+header.nav-top a{
+    color: white;
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+    padding-right: 10px;
+    color: white;
+}
+ul.nav-top-right{
+    position: absolute;
+    background-color: rgba(0,0,0, 0.9);
+    text-align: center;
+    right: 0;
+    flex-direction: column;
+}
+ul.nav-top-right li{
+    padding: 10px 0 25px 0;
+}
+.close{
+   margin: 0 0 0 300px;
+}
+
+figure.backGroundPicture{
+    background-color: #121212;
+    display: block;
+
+}
+img.firstPicture{
+    width: 100%;
+    height: 70vh;
+}
+figure.me{
+    display: block;
+    margin: 50px auto 20px auto;
+}
+img.mySelf{
+    width: 80%;
+    display: block;
+    margin: auto;
+
+}
+section.firstText{
+    text-align: center;
+    padding: 20px;
+    line-height: 23px;
+}
+section.firstText h1{
+    font-size: 30px;
+}
+section.firstText p{
+    margin: 10px 0;
+    font-size: 16px;
+}
+section.firstText h3{
+    font-size: 19px;
+}
+section.secondText{
+    margin: 20px 0;
+}
+section.secondText h1{
+    font-size: 30px;
+    margin: 10px 10px;
+}
+.slash{
+    width: 100px;
+    height: 1px;
+    background-color: black;
+}
+section.secondText p{
+    margin: 10px 10px;
+    font-size: 16px;
+}
+/* section.imageSection{
+    margin: 0;
+} */
+picture.firstImage, picture.secondImage, picture.thirdImage, picture.fourthImage{
+    display: flex;
+}
+img.picture{
+    width: 50%;
+    height: 120px;
+    transition: opacity 0.5s;
+    animation: 1s linear 0s change_opacity;
+}
+
+.change_opacity {
+    animation: 1s linear 0s change_opacity;
+}
+
+@keyframes change_opacity {
+    from {opacity: 0} to { opacity: 1}
+}
+
+aside.gallerySection{
+    display: flex;
+    margin: 30px;
+    /* align-items: center; */
+  justify-content: center;
+}
+ aside.gallerySection a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+aside.middleContent{
+    text-align: center;
+}
+div.first{
+    margin: 50px;
+}
+div.second{
+    margin: 50px;
+}
+div.third{
+    margin: 50px;
+}
+article.reviews{
+    margin: 60px 0 30px 0;
+}
+
+article.reviews h1{
+    text-align: center;
+    font-size: 30px;
+    
+}
+div.reviewBox{
+    text-align: center;
+}
+
+div.reviewBox1{
+    display: block;
+    margin: 30px 70px;
+    background-color: #F2F4F6;
+    padding: 20px;
+}
+
+img.clientsImage1{
+    width: 60%;
+    display: block;
+    margin: 10px auto;
+}
+img.clientsImage2{
+  display: none;
+}
+
+div.reviewBox2{
+    margin: 30px;
+    line-height: 25px;
+}
+div.reviewBox2 p{
+    font-size: 17px;
+}
+section.events{
+    /* background-color: black; */
+    display: block;
+    margin: 0;
+    color: black;
+}
+div.eventList1{
+    background-image: url('./newProjectFile/birthday/IMG-20210415-WA0069.jpg');
+    padding: 25px 40px;
+    background-size: cover;
+    /* display: block; */
+}
+div.offers h1{
+    font-size: 30px;
+}
+div.offers h4{
+    margin-top: 40px;
+}
+div.cost{
+    display: flex;
+    margin: 30px 0 0 0;
+    font-size: 20px;
+}
+
+div.galleryLink1{
+    margin: 0 0 0 auto;
+}
+div.galleryLink1 a{
+    text-decoration: none;
+    color: black;
+}
+div.eventList2{
+    background-image: url('./newProjectFile/wedding/IMG-20210415-WA00522.jpg');
+    padding: 25px 40px;
+    background-size: cover;
+}
+.display-none{
+    display: none;
+    
+}
+div.eventList3{
+    background-image: url('./newProjectFile/model/IMG-20210415-WA0083.jpg');
+    padding: 25px 40px;
+    background-size: cover;
+}
+aside.buttons{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 80px;
+    height: 40px;
+}
+aside.whyUs{
+    margin: 50px 0;
+    text-align: center;
+}
+aside.whyUs p{
+    font-size: 17px;
+    padding: 0 20px;
+}
+aside.whyUs a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+div.bookUs{
+    margin-top: 30px;
+}
+footer{
+    margin: 50px 0 0 0;
+}
+div.slash3{
+    width: 80px;
+    height: 0.5px;
+    background-color: black;
+    margin-right: 30px;
+}
+
+div.footerMain{
+    margin: 30px;
+}
+div.footerMain h4{
+    margin: 40px  0 10px 0;
+}
+div.footerMain p{
+    padding-bottom: 10px;
+}
+div.backGround4 a{
+    color: black;
+    text-decoration: none;
+}
+
+div.copyrights{
+    text-align: center;
+    margin: 30px;
+}
+
+/* for min-width: 768px */
+@media screen and (min-width: 768px) {
+    img.logo{
+        width: 100px;
+    }
+    div.nav-top-menu{
+        display: none;
+    }
+    .close{
+        display: none;
+    }
+    ul.nav-top-right{
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        box-sizing: border-box;
+        margin: 0 0 0 auto;
+    }
+    ul.nav-top-right li{
+        padding-right: 20px;
+    }
+
+    img.firstPicture{
+        height: calc(100vh - 50px);
+    }
+    img.mySelf{
+        width: 50%;
+    }
+    section.firstText{
+        padding: 20px 50px;
+        line-height: 40px;
+    }
+    section.firstText h1{
+        font-size: 50px;
+    }
+    section.firstText p{
+        margin: 20px auto;
+        font-size: 23px;
+    }
+    section.firstText h3{
+        font-size: 30px;
+    }
+    section.secondText{
+        margin: 100px 0 50px 0;
+    }
+    section.secondText h1{
+        font-size: 50px;
+        margin: 10px 50px;
+    }
+    section.secondText p{
+        margin: 10px 50px;
+        font-size: 20px;
+    }
+    /* img.picture1, img.picture2, img.picture3, img.picture4, img.picture5, img.picture6, img.picture7, img.picture8{
+        height: 300px;
+    } */
+    img.picture{
+        height: 300px;
+    }
+    aside.gallerySection{
+        margin: 60px;
+    }
+     aside.gallerySection a{
+        font-size: 30px;
+    }
+    aside.middleContent h1{
+        font-size: 35px;
+    }
+    aside.middleContent p{
+        font-size: 18px;
+    }
+    article.reviews{
+        margin: 100px 0 30px 0;
+    } 
+    article.reviews h1{
+        font-size: 40px;
+    }
+    div.reviewBox{
+        display: flex;
+        background-color: #F2F4F6;
+        margin: 50px 100px;
+    }
+    
+    div.reviewBox1{
+        display: block;
+        margin: 30px 20px;
+        padding: 0px;
+    }
+    
+    img.clientsImage1{
+        width: 100%;
+        display: block;
+        margin: 10px auto;
+    }
+    img.clientsImage2{
+      display: none;
+    }
+    
+    div.reviewBox2{
+        margin: 30px 20px 20px 10px;
+        line-height: 30px;
+    }
+    div.reviewBox2 p{
+        font-size: 17px;
+        text-align: start;
+    }
+    div.offers h1{
+        font-size: 40px;
+    }
+    div.cost{
+        margin: 50px 0 0px 0;
+        font-size: 35px;
+    }
+    
+    div.galleryLink1{
+        margin: 0 0 0 auto;
+    }
+    div.galleryLink1 a{
+        text-decoration: none;
+        color: black;
+    }
+    button{
+        /* display: none; */
+        width: 100px;
+        height: 60px;
+    }
+    aside.whyUs{
+        margin: 100px 150px;
+        text-align: center;
+    }
+    aside.whyUs p{
+        font-size: 30px;
+    }
+    aside.whyUs a{
+        font-size: 25px;
+    }
+    div.bookUs{
+        margin-top: 100px;
+    }
+    div.footerMain{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+/* for min width 998px */
+@media screen and (min-width: 998px) {
+    img.firstPicture{
+        height: calc(100vh - 60px);
+        width: 50%;
+        margin: auto;
+        display: block;
+    }
+    img.mySelf{
+        width: 30%;
+    }
+    section.firstText{
+        padding: 20px 200px;
+        line-height: 40px;
+    }
+    section.firstText h1{
+        font-size: 50px;
+    }
+    section.firstText p{
+        margin: 20px auto;
+        font-size: 23px;
+    }
+    section.firstText h3{
+        font-size: 30px;
+    }
+    section.secondText{
+        margin: 100px 50px 50px 50px;
+    }
+    div.firstSection, div.secondSection{
+        display: flex;
+    }
+    aside.middleContent{
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+    }
+    aside.middleContent h1{
+        font-size: 40px;
+    }
+    aside.middleContent p{
+        font-size: 20px;
+    }
+
+    article.reviews h1{
+        font-size: 60px;
+    }
+    div.reviewBox{
+        display: flex;
+        background-color: #F2F4F6;
+        margin: 50px 200px;
+    }
+    
+    div.reviewBox1{
+        display: block;
+        margin: 50px;
+        padding: 0px;
+    }
+    
+    img.clientsImage1{
+       display: none;
+    }
+    img.clientsImage2{
+        width: 100%;
+        display: block;
+        margin: 20px auto;
+    }
+    
+    div.reviewBox2{
+      /* display: flex;
+      justify-content: center;
+      align-items: center; */
+      padding-top: 30px;
+      line-height: 35px;
+    }
+    div.reviewBox2 p{
+        font-size: 23px;
+        text-align: start;
+    }
+    section.events{
+        display: flex;}
+    div.eventList1{
+        display: block;
+        width: 33.3%;}    
+    div.eventList2{
+        display: block;
+        width: 33.3%;
+    }
+    div.eventList3{
+        display: block;
+        width: 33.3%;
+    }
+    button{
+        display: none;
+    }
+    aside.whyUs{
+        margin: 100px 200px;
+    }
+    aside.whyUs p{
+        font-size: 35px;
+    }
+    aside.whyUs a{
+        font-size: 30px;
+    }
+    div.footerMain h4{
+      font-size: 20px;
+    }
+    div.footerMain p{
+        font-size: 17px;
+    }
+    div.backGround4 a{
+      font-size: 17px;
+    }
+}    
+.kill{
+    color: white;
+}
+.display-none1{
+    display: none;
+}

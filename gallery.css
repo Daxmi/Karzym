@@ -1,0 +1,67 @@
+header{
+    z-index: 100;
+}
+main{
+    margin: 20px;
+}
+aside.navTop{
+    display: flex;
+    margin: 10px 0;
+}
+aside.navTop a{
+    text-decoration: none;
+    color: black;
+    padding-right: 20px;
+}
+span{
+    padding-right: 20px;
+}
+
+.galleryCetegory{
+    width: 100%;
+    box-sizing: border-box;
+    height: 40px;
+    margin-bottom: 15px;
+}
+section{
+    margin-top: 20px;
+}
+picture img{
+    width: 100%;
+    padding: 5px 0;
+
+}
+#overFlow{
+    width: 100%;
+    overflow: hidden;
+}
+select{
+    margin: 10px 0;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+option{
+    width: 320px;
+    outline: none;
+}
+
+@media screen and (min-width: 768px)   {
+    picture img{
+        width: 45%;
+        padding: 0 10px 20px 10px;
+    }
+}
+
+
+@media screen and (min-width: 996px)   {
+    main{
+        margin: 20px 200px;
+    }
+    picture img{
+        width: 31%;
+        padding: 0 20px 20px 0;
+    }
+}
