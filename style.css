@@ -2,11 +2,9 @@
     margin: 0;
     /* background-color: black; */
 }
-
 html {
     width:100%;
 }
-
 /* CSS for header */
 header.nav-top{
     display: flex;
